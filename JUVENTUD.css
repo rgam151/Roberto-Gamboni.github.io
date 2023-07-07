@@ -2,7 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    @media(min-width: 1199.98px){
+      body{background-color: #fd0707;}
+    }
 }
+
 .top_header{
     height: 32px;
     width: 100%;
@@ -25,13 +29,19 @@
     height: 100%;
     align-items: center;
 }
-
+.top_header_right .contador img{
+  
+    height: 25px;
+    align-items: center;
+   
+}
 .top_header_right a{
     text-decoration: none;
     color: red;
     margin-right: 14px;
     margin-left: 11px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .top_header_right li {
   text-decoration: none;
@@ -85,6 +95,7 @@
   margin-left: 33px;
   height: 500px;
 }
+
 .section_header img{
    display: flex;
    float:right;
