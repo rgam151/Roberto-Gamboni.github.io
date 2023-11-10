@@ -19,11 +19,13 @@ header{
   height: 80px;
   background: red;
   position: fixed;
+  z-index: +1;
   padding: 0 50px;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .logo{
@@ -242,6 +244,7 @@ header{
   padding: 20px;
   font-size: 40px;
   text-decoration: underline;
+  margin-left: 55px;
   
 }
 .post-list-2{
